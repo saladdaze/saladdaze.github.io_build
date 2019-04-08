@@ -1,0 +1,32 @@
+.information {
+  display: block;
+  padding: 0;
+  margin: 0 0 4rem;
+  text-align: left;
+}
+.information__text {
+  display: inline-block;
+  line-height: 2rem;
+  padding: 0 0;
+  margin: 0;
+  // background: rgba(0,0,0,0.8);
+  // color: $color--white;
+  font-size: 1rem;
+  text-align: left;
+}
+
+@media screen and (min-width: 980px) {
+  .information {
+    position: absolute;
+    top: 40%;
+    left: 4rem;
+    width: 520px;
+    margin: 0;
+    background: rgba(0,0,0,0.8);
+    color: $color--white;
+  }
+  .information__text {
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+  }
+}

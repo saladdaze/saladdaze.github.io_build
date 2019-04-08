@@ -1,0 +1,17 @@
+.content {
+  display: block;
+  padding: 2rem 1rem;
+  margin: 0;
+}
+@media screen and (min-width: 980px) {
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+}

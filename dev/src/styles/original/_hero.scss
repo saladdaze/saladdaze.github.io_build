@@ -1,0 +1,43 @@
+.hero-wrap {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.hero {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.hero__image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/hero_001.jpg);
+  background-size: cover;
+  background-position: center;
+}
+// @media screen and (min-width: 768px) {
+//   .hero-wrap {
+//     margin: 0 auto;
+//   }
+//   .hero {
+//     width: 100%;
+//     margin: 0;
+//   }
+//   .hero__image {
+//     display: block;
+//     width: 100%;
+//   }
+// }
+@media screen and (min-width: 980px) {
+  .hero-wrap {
+    // position: absolute;
+    // top: 0;
+    // left: 0
+  }
+}

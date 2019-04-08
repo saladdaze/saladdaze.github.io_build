@@ -1,0 +1,70 @@
+extend includes/_layout
+append variables
+	//- Required
+	- var pageTitle= "SALAD DAZE サラダデーズ";
+	- var pageDescription= site.description;
+	- var pageKeywords= site.keywords;
+	//- Optional
+	- var pageOgpTitle= "SALAD DAZE サラダデーズ";
+	- var pageOgpImage= site.ogpImage
+	- var pageLang= "ja";
+	- var pageOgpType= "website";
+	//- Not modified
+	- var pageUrl= site.relativePath;
+
+block content
+	//- +gnavi( pageUrl )
+	//- contents
+	.content
+
+		.information
+			p.information__text サラダデーズは2018年5月に結成された大阪十三を拠点にしているバンドです。
+			//- p.information__text サラダデーズ<br>大阪十三のバンド<br>2018年5月に結成
+			p.information__text SALAD DAZE is the band based in Juso, Osaka. Formed in 2018.
+
+		article.box
+			.box-title
+				h1.box-title__inside LINK
+			ul.list
+				li.list__item
+					a(href="https://www.instagram.com/saladdaze666/" target="_blank" class="link")
+						dl.definition
+							dt.definition__title Instagram
+							dd.definition__data たまにスタジオ練習をライブ配信しています
+							dd.definition__icon
+								<svg class="icon icon_instagram">
+									<title>instagram</title>
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+								</svg>
+				li.list__item
+					a(href="https://www.youtube.com/channel/UCOuX6yH2rh8aUe_vIe4E1sQ" target="_blank" class="link")
+						dl.definition
+							dt.definition__title YOU TUBE
+							dd.definition__data MVを観ることができます
+							dd.definition__icon
+								<svg class="icon icon_youtube">
+									<title>youtube</title>
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use>
+								</svg>
+				li.list__item
+					a(href="https://soundcloud.com/user-283691836" target="_blank" class="link")
+						dl.definition
+							dt.definition__title soundcloud
+							dd.definition__data スタジオの練習音源が聴けます
+							dd.definition__icon
+								<svg class="icon icon_soundcloud">
+									<title>soundcloud</title>
+									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#soundcloud"></use>
+								</svg>
+				//-
+					li.list__item
+						a(href="https://twitter.com/saladdaze666" target="_blank" class="link")
+							dl.definition
+								dt.definition__title twitter
+								dd.definition__data お知らせをツイートしていきます
+								dd.definition__icon
+									<svg class="icon icon_soundcloud">
+										<title>twitter</title>
+										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+									</svg>
+			-//

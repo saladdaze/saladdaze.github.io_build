@@ -1,0 +1,60 @@
+{
+  "name": "speedy",
+  "version": "1.7.0",
+  "description": "This is use Sass and Pug to create Website.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "dist": "gulp dist"
+  },
+  "author": "YAT",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.23.6",
+    "browserify": "^15.2.0",
+    "browserify-shim": "^3.8.14",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-data": "^1.3.1",
+    "gulp-debug": "^3.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.4",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "jquery": "^3.3.1",
+    "run-sequence": "^2.2.1",
+    "sanitize.css": "^5.0.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.10.0"
+  },
+  "private": true,
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "path": "^0.12.7"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery",
+    "underscore": "global:_"
+  }
+}

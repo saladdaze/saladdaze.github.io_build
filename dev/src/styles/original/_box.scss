@@ -1,0 +1,48 @@
+.box {
+    display: block;
+    margin: 0 0 4rem;
+}
+.box-title {
+  display: block;
+  margin: 0 0 2rem;
+  text-align: center;
+}
+.box-title__inside {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 4px;
+  margin: 0;
+  background: rgba(0,0,0,0.8);
+  color: $color--white;
+  font-size: 20px;
+  font-family: 'Kite One', sans-serif;
+}
+
+@media screen and (min-width: 980px) {
+  .box {
+    // display: none;
+  }
+  .box-title {
+    display: none;
+  }
+}
+// @media screen and (min-width: 768px) {
+//   .hero-wrap {
+//     margin: 0 auto;
+//   }
+//   .hero {
+//     width: 100%;
+//     margin: 0;
+//   }
+//   .hero__image {
+//     display: block;
+//     width: 100%;
+//   }
+// }
+// @media screen and (min-width: 980px) {
+//   .hero-wrap {
+//     width: 980px;
+//     padding: 16px 0;
+//   }
+// }
