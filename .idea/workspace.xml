@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e995a235-307b-474d-9838-f5f12218f7f2" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/css/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dev/css/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dev/pug/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/styles/original/_information.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/styles/original/_information.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +57,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632919576056</updated>
-      <workItem from="1632919577519" duration="103000" />
+      <workItem from="1632919577519" duration="1700000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="150" width="653" height="490" key="find.popup" timestamp="1632920163554">
+      <screen x="0" y="25" width="1280" height="741" />
+    </state>
+    <state x="313" y="150" width="653" height="490" key="find.popup/0.25.1280.741@0.25.1280.741" timestamp="1632920163554" />
   </component>
 </project>

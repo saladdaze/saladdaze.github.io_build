@@ -24,9 +24,18 @@
     margin: 0;
     background: rgba(0,0,0,0.8);
     color: $color--white;
+	  &.is_bandcamp {
+		  left: auto;
+		  right: 4rem;
+		  width: auto;
+		  max-width: 420px;
+	  }
   }
   .information__text {
     line-height: 2.5rem;
     font-size: 1.4rem;
+	  &.size_s {
+		  font-size: .8rem
+	  }
   }
 }
